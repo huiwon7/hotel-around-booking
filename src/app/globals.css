@@ -48,38 +48,45 @@
 }
 
 :root {
-  --background: oklch(1 0 0);
-  --foreground: oklch(0.145 0 0);
-  --card: oklch(1 0 0);
-  --card-foreground: oklch(0.145 0 0);
-  --popover: oklch(1 0 0);
-  --popover-foreground: oklch(0.145 0 0);
-  --primary: oklch(0.205 0 0);
-  --primary-foreground: oklch(0.985 0 0);
-  --secondary: oklch(0.97 0 0);
-  --secondary-foreground: oklch(0.205 0 0);
-  --muted: oklch(0.97 0 0);
-  --muted-foreground: oklch(0.556 0 0);
-  --accent: oklch(0.97 0 0);
-  --accent-foreground: oklch(0.205 0 0);
-  --destructive: oklch(0.58 0.22 27);
-  --border: oklch(0.922 0 0);
-  --input: oklch(0.922 0 0);
-  --ring: oklch(0.708 0 0);
-  --chart-1: oklch(0.809 0.105 251.813);
-  --chart-2: oklch(0.623 0.214 259.815);
-  --chart-3: oklch(0.546 0.245 262.881);
-  --chart-4: oklch(0.488 0.243 264.376);
-  --chart-5: oklch(0.424 0.199 265.638);
-  --radius: 0.625rem;
-  --sidebar: oklch(0.985 0 0);
-  --sidebar-foreground: oklch(0.145 0 0);
-  --sidebar-primary: oklch(0.205 0 0);
-  --sidebar-primary-foreground: oklch(0.985 0 0);
-  --sidebar-accent: oklch(0.97 0 0);
-  --sidebar-accent-foreground: oklch(0.205 0 0);
-  --sidebar-border: oklch(0.922 0 0);
-  --sidebar-ring: oklch(0.708 0 0);
+  /* Hotel Around Pyeongchang - Nature-inspired palette */
+  --background: #f7f9f5;
+  --foreground: #1e2a1f;
+  --card: #ffffff;
+  --card-foreground: #1e2a1f;
+  --popover: #ffffff;
+  --popover-foreground: #1e2a1f;
+  --primary: #4a7c59;
+  --primary-foreground: #ffffff;
+  --secondary: #f0f2ee;
+  --secondary-foreground: #2d3a2e;
+  --muted: #f0f2ee;
+  --muted-foreground: #5a6356;
+  --accent: #c4956a;
+  --accent-foreground: #ffffff;
+  --destructive: #dc2626;
+  --border: #dfe2dc;
+  --input: #dfe2dc;
+  --ring: #4a7c59;
+  --chart-1: #4a7c59;
+  --chart-2: #c4956a;
+  --chart-3: #5a8cb5;
+  --chart-4: #e8a0bf;
+  --chart-5: #c4774a;
+  --radius: 0.5rem;
+  --sidebar: #f7f9f5;
+  --sidebar-foreground: #1e2a1f;
+  --sidebar-primary: #4a7c59;
+  --sidebar-primary-foreground: #ffffff;
+  --sidebar-accent: #f0f2ee;
+  --sidebar-accent-foreground: #2d3a2e;
+  --sidebar-border: #dfe2dc;
+  --sidebar-ring: #4a7c59;
+
+  /* Season colors */
+  --season-spring: #e8a0bf;
+  --season-summer: #2d8a6e;
+  --season-fall: #c4774a;
+  --season-winter: #5a8cb5;
 }
 
 .dark {
